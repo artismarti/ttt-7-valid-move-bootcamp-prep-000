@@ -1,7 +1,7 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # code your #valid_move? method here
 def valid_move?(board, index)
-  index > -1 && ind
+  index > -1 && index < 10
   position_taken?(board,index) ? false : true
 end
 
